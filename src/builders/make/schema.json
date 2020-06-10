@@ -46,6 +46,11 @@
       "default": null,
       "enum": ["onTag", "onTagOrDraft", "always", "never"],
       "description": "Package publish policy."
+    },
+    "buildNumber": {
+      "type": "string",
+      "default": null,
+      "description": "The version number to apply to the package"
     }
   },
   "required": ["name", "frontendProject"]
